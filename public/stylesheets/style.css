@@ -1,8 +1,53 @@
+*{margin: 0;padding: 0;}
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 16px Georgia,serif;
 }
 
+#page-wrap{margin: 2% auto; color:white;}
+#page-wrap >.main{border: 1px solid #999;
+				padding: 1%;
+				margin-bottom: 1px;
+				color:black;
+			}
+section > div {padding: 20px;}
+header,nav,section,footer{background-color: #eee;
+						  text-align:center;
+						  }
+nav span{margin: 0px 10px 0px 0px;}
+
+/*#00B7FF*/
+
+.yo{width: 60px;height: 80px;}
+=======
+.yo{width: 80px;height: 100px;}
+
 a {
-  color: #00B7FF;
+  color:#fff;
+  text-decoration: none;
+
+
+}
+
+footer>a{color: darkslategrey;}
+=======
+footer > a {
+	color:darkslategrey;
+}
+
+.enlace{background-color: darkslategrey;}
+
+
+.bienvenida{
+	color:green;
+	font-size: 2.5em;
+}
+
+.lema{
+	font-size: 1.5em;
+}
+label.preg{
+	font-size: 1.2em;
+	font-weight:bold;
+	color:blueviolet;
 }
