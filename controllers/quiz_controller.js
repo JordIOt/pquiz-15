@@ -1,7 +1,7 @@
 var models = require('../models/models.js');
 
 //GET /quizes/question
-exports.questions= function(req,res){
+exports.question= function(req,res){
 	models.Quiz.findAll().success(function(quiz){
 		res.render('quizes/question', {pregunta:quiz[0].pregunta})
 	})
