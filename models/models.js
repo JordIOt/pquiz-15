@@ -38,7 +38,13 @@ sequelize.sync().then(function(){
 		if(count === 0){//la tabla se inicia si esta vacia
 			Quiz.create({pregunta: 'Capital de Italia',
 						 respuesta: 'Roma'
-						})
+						});
+			Quiz.create({pregunta: 'Quien descubrió America?',
+						 respuesta: '´Cristobal Colon'
+						});
+			Quiz.create({pregunta : 'Cual es capital de España?',
+						respuesta: 'Madrid'
+					})
 			.then(function(){console.log('Base de datos inicializada')});
 		};
 
