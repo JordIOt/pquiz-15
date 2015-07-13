@@ -33,7 +33,7 @@ exports.Quiz = Quiz;// Exporta tabla Quiz
 
 //sequelize.sync() crea e inicializa tabla de preguntas en DB
 sequelize.sync().then(function(){
-	//success(...) ejecuta el manejador una vez creada la tabla
+	//then(...) ejecuta el manejador una vez creada la tabla
 	Quiz.count().then(function(count){
 		if(count === 0){//la tabla se inicia si esta vacia
 			Quiz.create({pregunta: 'Quien descubrió America?',
