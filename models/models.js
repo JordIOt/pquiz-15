@@ -39,7 +39,7 @@ sequelize.sync().then(function(){
 			Quiz.create({pregunta: 'Quien descubrió America?',
 						 respuesta: '´Cristobal Colon'
 						});
-			Quiz.create({pregunta: 'Capital de Italia',
+			Quiz.create({pregunta: 'Capital de Italia?',
 						 respuesta: 'Roma'
 						});
 
