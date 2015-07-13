@@ -40,7 +40,7 @@ sequelize.sync().then(function(){
 						 respuesta: '´Cristobal Colon'
 						});
 			Quiz.create({pregunta: 'Capital de Italia?',
-						 respuesta: 'Roma'
+						 respuesta: 'roma'
 						});
 
 			Quiz.create({pregunta : 'Cual es capital de España?',
