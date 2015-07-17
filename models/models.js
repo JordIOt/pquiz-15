@@ -45,6 +45,9 @@ sequelize.sync().then(function(){
 
 			Quiz.create({pregunta : 'Cual es capital de España?',
 						respuesta: 'Madrid'
+					});
+			Quiz.create({pregunta : 'Cual es el mejor juagador del mundo?',
+						respuesta: 'Messi'
 					})
 			.then(function(){console.log('Base de datos inicializada')});
 		};

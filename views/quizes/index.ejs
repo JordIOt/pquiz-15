@@ -1,4 +1,8 @@
 
+<form method="get" action="quizes/index" class='buscador'>
+<input type='text' name = '' value='buscar'>
+<input type="submit" value='Buscar'>
+</form>
 <table>
 	<% var i; for (i=0; i<quizes.length; i++){ %>
 	<tr> <td><a  class="ques" href="quizes/<%= quizes[i].id %>"><%= quizes[i].pregunta %></a></td> </tr>
